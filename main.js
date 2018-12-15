@@ -2,11 +2,11 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
 	var mySrc = myImage.getAttribute('src');
-	if(mySrc === 'images/images.png') {
-		myImage.setAttribute('src','images/git-github.jpeg');
+	if(mySrc === 'images.png') {
+		myImage.setAttribute('src','git-github.jpeg');
 	}
 	else{
-		myImage.setAttribute('src','images/images.png');
+		myImage.setAttribute('src','images.png');
 	}
 }
 
